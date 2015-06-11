@@ -14,7 +14,7 @@ This is a handy and easy to use plugin for WordPress which creates breadcrumb na
 For more information visit coffeecupweb.com
 <p>To output the breadcrumbs place the following code in your template files </p>
 
-<pre>`<?php if(function_exists(ccw_breadcrumb)) {ccw_breadcrumb();} ?>`</pre>
+`<?php if(function_exists(ccw_breadcrumb)) {ccw_breadcrumb();} ?>`
 
 
 == Installation ==
