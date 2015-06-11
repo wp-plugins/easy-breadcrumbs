@@ -13,7 +13,9 @@ A handy plugin which allows you to quickly create breadcrumb navigation.
 This is a handy and easy to use plugin for WordPress which creates breadcrumb navigation. This plugin generates breadcrumb trails for your WordPress blog or website which makes it easier for user to navigate.
 For more information visit coffeecupweb.com
 <p>To output the breadcrumbs place the following code in your template files </p>
-<pre><?php if(function_exists(ccw_breadcrumb)) {ccw_breadcrumb();} ?></pre>
+
+<p><?php if(function_exists(ccw_breadcrumb)) {ccw_breadcrumb();} ?></p>
+
 
 == Installation ==
 Install plugin from WordPress.org. You can also manually download it, unpack and upload easy-breadcrumbs directory to the /wp-content/plugins/ directory.
