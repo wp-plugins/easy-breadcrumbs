@@ -17,9 +17,7 @@ For more information visit coffeecupweb.com
 
 == Installation ==
 1. Upload easy-breadcrumbs folder to the /wp-content/plugins/ directory
-
 2. Activate the plugin through the 'Plugins' menu in WordPress
-
 3. To output the breadcrumbs place the following code in your template files
 
 `<?php if(function_exists(ccw_breadcrumb)) {ccw_breadcrumb();} ?>`
